@@ -1,5 +1,19 @@
 # @hyperdx/app
 
+## 2.2.3
+
+### Patch Changes
+
+- d6f8058: - deprecate unused packages/api/src/clickhouse
+  - deprecate unused route /datasources
+  - introduce getJSNativeCreateClient in common-utils
+  - uninstall @clickhouse/client in api package
+  - uninstall @clickhouse/client + @clickhouse/client-web in app package
+  - bump @clickhouse/client in common-utils package to v1.12.1
+- 9c4c5f4: feat: support toUnixTimestamp style timestamps in ORDER BY
+- Updated dependencies [d6f8058]
+  - @hyperdx/common-utils@0.3.3
+
 ## 2.2.2
 
 ### Patch Changes
