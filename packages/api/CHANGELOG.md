@@ -1,5 +1,22 @@
 # @hyperdx/api
 
+## 2.2.3
+
+### Patch Changes
+
+- eb6f3a0: Fix the alert connection query to include the password field.
+- d6f8058: - deprecate unused packages/api/src/clickhouse
+  - deprecate unused route /datasources
+  - introduce getJSNativeCreateClient in common-utils
+  - uninstall @clickhouse/client in api package
+  - uninstall @clickhouse/client + @clickhouse/client-web in app package
+  - bump @clickhouse/client in common-utils package to v1.12.1
+- bb2221a: fix: Keep "created by" field unchanged during alert updates in dashboards
+- f800fd1: Fixes alert title used on dashboards with multiple tiles
+- 261d469: feat: limit how many tasks are executing at any time
+- Updated dependencies [d6f8058]
+  - @hyperdx/common-utils@0.3.3
+
 ## 2.2.2
 
 ### Patch Changes

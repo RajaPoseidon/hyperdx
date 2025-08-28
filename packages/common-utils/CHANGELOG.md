@@ -1,5 +1,16 @@
 # @hyperdx/common-utils
 
+## 0.3.3
+
+### Patch Changes
+
+- d6f8058: - deprecate unused packages/api/src/clickhouse
+  - deprecate unused route /datasources
+  - introduce getJSNativeCreateClient in common-utils
+  - uninstall @clickhouse/client in api package
+  - uninstall @clickhouse/client + @clickhouse/client-web in app package
+  - bump @clickhouse/client in common-utils package to v1.12.1
+
 ## 0.3.2
 
 ### Patch Changes
