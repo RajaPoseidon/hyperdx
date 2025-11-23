@@ -1,5 +1,14 @@
 # @hyperdx/api
 
+## 2.8.1
+
+### Patch Changes
+
+- e838436: Improve value rounding on alerts to match thresholds
+- Updated dependencies [59422a1]
+- Updated dependencies [770276a]
+  - @hyperdx/common-utils@0.8.1
+
 ## 2.8.0
 
 ### Minor Changes
